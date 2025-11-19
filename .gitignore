@@ -1,0 +1,76 @@
+# ============================
+# Global
+# ============================
+node_modules/
+.DS_Store
+Thumbs.db
+logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build directories
+build/
+dist/
+coverage/
+.cache/
+.tmp/
+temp/
+
+# OS-generated
+*.swp
+*.swo
+
+# ============================
+# Backend (Node / Express)
+# ============================
+backend/node_modules/
+backend/.env
+backend/logs/
+backend/.cache/
+backend/coverage/
+backend/temp/
+
+# Ignore SQLite (if used)
+backend/*.sqlite
+backend/*.sqlite3
+
+# Ignore MySQL dump files
+*.sql
+
+# ============================
+# Frontend (React)
+# ============================
+frontend/node_modules/
+frontend/.env
+frontend/.eslintcache
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/coverage/
+frontend/temp/
+
+# Ignore React Native / Expo (just in case)
+.expo/
+.expo-shared/
+*.expo*
+
+# ============================
+# VS Code
+# ============================
+.vscode/
+.history/
+
+# ============================
+# Misc
+# ============================
+*.pem
+*.key
+*.crt
+*.pid
